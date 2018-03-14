@@ -1,2 +1,2 @@
 # CPSC323
-This is my workspace for CPSC 323.
+This is my workspace for CPSC 323
