@@ -28,6 +28,7 @@ int main()
                 if(input[i-1] == 'a' && input[i] == 'b')
                 {
                     goodLang1 = true;
+                    useLang1 = false;
                 }
                 else
                 {
