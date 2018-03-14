@@ -18,11 +18,26 @@ int main()
 
     if(useLang1)
     {
+        int i = 0;
         while(goodLang1)
         {
-            
+            if(input[i] == 'a')
+                useLang1 = true;
+            else if(input[i] == 'b')
+            {
+                if(input[input.length()-1] == 'a' && input[input.length()] == 'b')
+                {
+                    goodLang1 = true;
+                }
+                else
+                    goodLang1 = false;
+            }
+            i++;
         }
     }
+
+    if(useLang1)
+        cout << "valid entry." << endl;
 
     return 0;
 }
