@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     bool useLang1, useLang2 = false;
-    bool goodLang1, goodLang2 = true;
+    bool goodLang1, goodLang2 = false;
 
     string input;
 
