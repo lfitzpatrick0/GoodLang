@@ -47,7 +47,33 @@ int main()
         }
     }
 
-    if(goodLang1)
+    if(useLang2)
+    {
+        int i = 0;
+        while(useLang2) 
+        {
+            if(input.length()==1 && input[i]=='b')
+            {
+                goodLang2 = true;
+                useLang2 = false;
+            }
+            else if(input[i] != 'b')
+            {
+                goodLang2 = false;
+                useLang2 = false;
+            }
+            else
+            {
+                if(input.length()-1 == i)
+                {
+                    useLang2 = false;
+                }
+            }
+            i++;
+        }
+    }
+
+    if(goodLang1 || goodLang2)
         cout << "valid entry." << endl;
     else
         cout << "invalid entry." << endl;
