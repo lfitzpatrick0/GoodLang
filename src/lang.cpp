@@ -25,7 +25,6 @@ int main()
                 goodLang1 = true;
             else if(input[input.length()-1] == 'b')
             {
-                // cout << i << endl << input.length() << endl;
                 if(input[input.length()-2] == 'a')
                 {
                     goodLang1 = true;
@@ -41,7 +40,6 @@ int main()
             {
                 goodLang1 = false;
                 useLang1 = false;
-                // error state
             }
             i++;
         }
